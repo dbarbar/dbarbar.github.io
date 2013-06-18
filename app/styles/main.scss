@@ -1,5 +1,12 @@
-@import "compass_twitter_bootstrap";
-@import "compass_twitter_bootstrap_responsive";
+$iconSpritePath: "../images/glyphicons-halflings.png";
+$iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
+
+@import 'sass-bootstrap/lib/bootstrap';
+
+.hero-unit {
+    margin: 50px auto 0 auto;
+    width: 300px;
+}
 
 body {
     margin-bottom: 20px;
