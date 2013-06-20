@@ -4,10 +4,10 @@ My resume page.  Built with Yeoman and by hand.
 
 ## Tools used
 
-* Yeoman
-* Google Web Fonts
-* Zocial icon font
-* Hosted on Github using a subtree push
+* [Yeoman](http://yeoman.io/)
+* [Google Web Fonts](http://www.google.com/fonts/)
+* [Zocial icon font](http://zocial.smcllns.com/)
+* Hosted on Github using a subtree push. [See this page](http://txt.fliglio.com/2013/04/publishing-a-yeoman-app-with-github-pages/)
 
 ## Building and Deploying
 
