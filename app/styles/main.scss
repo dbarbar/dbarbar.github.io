@@ -4,12 +4,25 @@ $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
 @import 'sass-bootstrap/lib/bootstrap';
 @import 'sass-bootstrap/lib/responsive';
 
-.hero-unit {
-    margin: 50px auto 0 auto;
-}
 
 body {
+    margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+    background-color: #333;
+}
+
+section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .fierce {
@@ -26,6 +39,7 @@ body {
 
 .hero-unit {
     padding: 30px;
+    margin: 50px auto 0 auto;
 
     ul {
         li {
@@ -34,35 +48,29 @@ body {
         }
     }
     .row {
-        margin: 0;
-        padding: 0;
+
         font-weight: bold;
         font-size: 25px;
     }
 
-    div {
-        margin-left: 0;
-        padding-left: 0;
-        margin-top: 10px;
-    }
+
 }
 
 #web-places {
-    ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+        display: inline;
+        list-style-type: none;
         padding: 0;
-        margin: 0;
+        margin: 5px;
 
-        li {
+        h3 {
             display: inline;
-            list-style-type: none;
-            padding: 0 5px;
-            margin: 0;
-
-            h3 {
-                display: inline;
-            }
         }
     }
+
 }
 
 /* Large desktop */
@@ -91,7 +99,6 @@ body {
     body {
         margin: 0 10px 20px 10px;
         padding: 0;
-        font-size: 15px;
     }
 
     ul {
@@ -123,13 +130,16 @@ body {
         }
 
         #web-places {
-            ul {
-                li {
-                    h3 {
-                        font-size: 18px;
-                    }
+
+            li {
+                margin: 10px;
+                padding: 0;
+                h3 {
+                    font-size: 30px;
+
                 }
             }
+
         }
     }
 
