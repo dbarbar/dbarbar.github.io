@@ -1,6 +1,7 @@
 {
   "name": "dbarbar-github-io",
   "version": "0.0.0",
+  "repository": "https://github.com/dbarbar/dbarbar.github.io.git",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
